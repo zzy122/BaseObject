@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
@@ -43,4 +43,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+extension AppDelegate {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.host == "pay"{
+            return WXApi.handleOpen(url, delegate: KFPayAction.share)
+        }
+        if url.host == "safepay"{
+            AlipaySDK.defaultService()?.processOrder(withPaymentResult: url, standbyCallback: { (resultDic:[AnyHashable : Any]?) in
+                if let Alipayjson = resultDic as NSDictionary?{
+                    let resultStatus = Alipayjson.value(forKey: "resultStatus") as! String
+                    NotificationCenter.default.post(name: NSNotification.Name("Alipay"), object: self, userInfo: ["resultStatus":resultStatus])
+                }
+                
+            })
+        }
+        if url.host == "platformapi"{
+            AlipaySDK.defaultService()?.processAuthResult(url, standbyCallback: { (resultDic:[AnyHashable : Any]?) in
+                if let Alipayjson = resultDic as NSDictionary?{
+                    let resultStatus = Alipayjson.value(forKey: "resultStatus") as! String
+                    NotificationCenter.default.post(name: NSNotification.Name("Alipay"), object: self, userInfo: ["resultStatus":resultStatus])
+                }
+            })
+        }
+        let result = UMSocialManager.default().handleOpen(url)
+        return result
+    }
+}

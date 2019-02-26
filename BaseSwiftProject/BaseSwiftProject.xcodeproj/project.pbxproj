@@ -8,6 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0A55B1A018D688A670012E3E /* Pods_BaseSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CEB6BB8B09A9F0E60334DF /* Pods_BaseSwiftProject.framework */; };
+		C7A977CC2202CCD600C4E5AA /* ResponseRuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977AE2202CCD600C4E5AA /* ResponseRuter.swift */; };
+		C7A977CD2202CCD600C4E5AA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977AF2202CCD600C4E5AA /* Date+Extension.swift */; };
+		C7A977CE2202CCD600C4E5AA /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B02202CCD600C4E5AA /* UITextFieldExtension.swift */; };
+		C7A977CF2202CCD600C4E5AA /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B12202CCD600C4E5AA /* IntExtension.swift */; };
+		C7A977D02202CCD600C4E5AA /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B22202CCD600C4E5AA /* ImageExtension.swift */; };
+		C7A977D12202CCD600C4E5AA /* KFTextFiledExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B32202CCD600C4E5AA /* KFTextFiledExtension.swift */; };
+		C7A977D22202CCD600C4E5AA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B42202CCD600C4E5AA /* ViewExtension.swift */; };
+		C7A977D32202CCD600C4E5AA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B52202CCD600C4E5AA /* ColorExtension.swift */; };
+		C7A977D42202CCD600C4E5AA /* ImageRightBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B62202CCD600C4E5AA /* ImageRightBtn.swift */; };
+		C7A977D52202CCD600C4E5AA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B72202CCD600C4E5AA /* StringExtension.swift */; };
+		C7A977D62202CCD600C4E5AA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B82202CCD600C4E5AA /* DateExtension.swift */; };
+		C7A977D72202CCD600C4E5AA /* KFTimerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977B92202CCD600C4E5AA /* KFTimerBtn.swift */; };
+		C7A977D82202CCD600C4E5AA /* KFSMSCodeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977BA2202CCD600C4E5AA /* KFSMSCodeBtn.swift */; };
+		C7A977DB2202CCD600C4E5AA /* AlertViewCoustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977BE2202CCD600C4E5AA /* AlertViewCoustom.swift */; };
+		C7A977DD2202CCD600C4E5AA /* KFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C12202CCD600C4E5AA /* KFAlertView.swift */; };
+		C7A977DE2202CCD600C4E5AA /* KFToastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C22202CCD600C4E5AA /* KFToastLabel.swift */; };
+		C7A977DF2202CCD600C4E5AA /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C42202CCD600C4E5AA /* AlertAction.swift */; };
+		C7A977E02202CCD600C4E5AA /* CustomProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C52202CCD600C4E5AA /* CustomProtocol.swift */; };
+		C7A977E12202CCD600C4E5AA /* StringExtensionZhengZe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C62202CCD600C4E5AA /* StringExtensionZhengZe.swift */; };
+		C7A977E22202CCD600C4E5AA /* KFPayResultTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C72202CCD600C4E5AA /* KFPayResultTool.swift */; };
+		C7A977E32202CCD600C4E5AA /* KFKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C82202CCD600C4E5AA /* KFKeyChain.swift */; };
+		C7A977E42202CCD600C4E5AA /* KFCreatCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977C92202CCD600C4E5AA /* KFCreatCodeTool.swift */; };
+		C7A977E52202CCD600C4E5AA /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977CB2202CCD600C4E5AA /* BaseModel.swift */; };
+		C7A977E92202CF4600C4E5AA /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A977E82202CF4600C4E5AA /* test.m */; };
+		C7A977F02202D33800C4E5AA /* CustomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EB2202D33800C4E5AA /* CustomFunc.swift */; };
+		C7A977F12202D33800C4E5AA /* KFPayAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EC2202D33800C4E5AA /* KFPayAction.swift */; };
+		C7A977F22202D33900C4E5AA /* UMengAcion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977ED2202D33800C4E5AA /* UMengAcion.swift */; };
+		C7A977F32202D33900C4E5AA /* CustomDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EE2202D33800C4E5AA /* CustomDefine.swift */; };
+		C7A977F42202D33900C4E5AA /* KFHUDAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EF2202D33800C4E5AA /* KFHUDAction.swift */; };
+		C7A977F62202DF4900C4E5AA /* APPCustomDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */; };
+		C7A977F82202E00A00C4E5AA /* SFAddaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F72202E00A00C4E5AA /* SFAddaption.swift */; };
+		C7A977FA2202E1F600C4E5AA /* APPCustomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */; };
+		C7A978012202E21100C4E5AA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977FC2202E21100C4E5AA /* BaseViewController.swift */; };
+		C7A978022202E21100C4E5AA /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977FD2202E21100C4E5AA /* BaseTableViewController.swift */; };
+		C7A978032202E21100C4E5AA /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977FE2202E21100C4E5AA /* CustomNavigationViewController.swift */; };
+		C7A978052202E21100C4E5AA /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A978002202E21100C4E5AA /* BaseTabBarViewController.swift */; };
+		C7A978072202F74000C4E5AA /* AppLunchSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A978062202F74000C4E5AA /* AppLunchSetting.swift */; };
+		C7A978142202FF7D00C4E5AA /* NetCostom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A978092202FF7D00C4E5AA /* NetCostom.swift */; };
+		C7A978152202FF7D00C4E5AA /* KFErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9780A2202FF7D00C4E5AA /* KFErrorModel.swift */; };
+		C7A978172202FF7D00C4E5AA /* KFNetPasswordTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A9780E2202FF7D00C4E5AA /* KFNetPasswordTools.m */; };
+		C7A978182202FF7D00C4E5AA /* XXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A9780F2202FF7D00C4E5AA /* XXTEA.m */; };
+		C7A978192202FF7D00C4E5AA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A978102202FF7D00C4E5AA /* NSDictionary+JSON.m */; };
 		C7AA55E1210B09A7003D4580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA55E0210B09A7003D4580 /* AppDelegate.swift */; };
 		C7AA55E3210B09A7003D4580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA55E2210B09A7003D4580 /* ViewController.swift */; };
 		C7AA55E6210B09A7003D4580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AA55E4210B09A7003D4580 /* Main.storyboard */; };
@@ -37,6 +79,53 @@
 /* Begin PBXFileReference section */
 		8D2475A4959F0DA230F74FCD /* Pods-BaseSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseSwiftProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		A0FD42A75BC350BF7948B4AD /* Pods-BaseSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseSwiftProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A977AE2202CCD600C4E5AA /* ResponseRuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseRuter.swift; sourceTree = "<group>"; };
+		C7A977AF2202CCD600C4E5AA /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C7A977B02202CCD600C4E5AA /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		C7A977B12202CCD600C4E5AA /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		C7A977B22202CCD600C4E5AA /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		C7A977B32202CCD600C4E5AA /* KFTextFiledExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFTextFiledExtension.swift; sourceTree = "<group>"; };
+		C7A977B42202CCD600C4E5AA /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		C7A977B52202CCD600C4E5AA /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C7A977B62202CCD600C4E5AA /* ImageRightBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightBtn.swift; sourceTree = "<group>"; };
+		C7A977B72202CCD600C4E5AA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C7A977B82202CCD600C4E5AA /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C7A977B92202CCD600C4E5AA /* KFTimerBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFTimerBtn.swift; sourceTree = "<group>"; };
+		C7A977BA2202CCD600C4E5AA /* KFSMSCodeBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFSMSCodeBtn.swift; sourceTree = "<group>"; };
+		C7A977BE2202CCD600C4E5AA /* AlertViewCoustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewCoustom.swift; sourceTree = "<group>"; };
+		C7A977C12202CCD600C4E5AA /* KFAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFAlertView.swift; sourceTree = "<group>"; };
+		C7A977C22202CCD600C4E5AA /* KFToastLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFToastLabel.swift; sourceTree = "<group>"; };
+		C7A977C42202CCD600C4E5AA /* AlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		C7A977C52202CCD600C4E5AA /* CustomProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProtocol.swift; sourceTree = "<group>"; };
+		C7A977C62202CCD600C4E5AA /* StringExtensionZhengZe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionZhengZe.swift; sourceTree = "<group>"; };
+		C7A977C72202CCD600C4E5AA /* KFPayResultTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFPayResultTool.swift; sourceTree = "<group>"; };
+		C7A977C82202CCD600C4E5AA /* KFKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFKeyChain.swift; sourceTree = "<group>"; };
+		C7A977C92202CCD600C4E5AA /* KFCreatCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFCreatCodeTool.swift; sourceTree = "<group>"; };
+		C7A977CB2202CCD600C4E5AA /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		C7A977E62202CF4500C4E5AA /* BaseSwiftProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseSwiftProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7A977E72202CF4600C4E5AA /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		C7A977E82202CF4600C4E5AA /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		C7A977EB2202D33800C4E5AA /* CustomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFunc.swift; sourceTree = "<group>"; };
+		C7A977EC2202D33800C4E5AA /* KFPayAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFPayAction.swift; sourceTree = "<group>"; };
+		C7A977ED2202D33800C4E5AA /* UMengAcion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UMengAcion.swift; sourceTree = "<group>"; };
+		C7A977EE2202D33800C4E5AA /* CustomDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDefine.swift; sourceTree = "<group>"; };
+		C7A977EF2202D33800C4E5AA /* KFHUDAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFHUDAction.swift; sourceTree = "<group>"; };
+		C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPCustomDefine.swift; sourceTree = "<group>"; };
+		C7A977F72202E00A00C4E5AA /* SFAddaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFAddaption.swift; sourceTree = "<group>"; };
+		C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPCustomFunc.swift; sourceTree = "<group>"; };
+		C7A977FC2202E21100C4E5AA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C7A977FD2202E21100C4E5AA /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		C7A977FE2202E21100C4E5AA /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		C7A978002202E21100C4E5AA /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		C7A978062202F74000C4E5AA /* AppLunchSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLunchSetting.swift; sourceTree = "<group>"; };
+		C7A978092202FF7D00C4E5AA /* NetCostom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetCostom.swift; sourceTree = "<group>"; };
+		C7A9780A2202FF7D00C4E5AA /* KFErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFErrorModel.swift; sourceTree = "<group>"; };
+		C7A9780D2202FF7D00C4E5AA /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		C7A9780E2202FF7D00C4E5AA /* KFNetPasswordTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFNetPasswordTools.m; sourceTree = "<group>"; };
+		C7A9780F2202FF7D00C4E5AA /* XXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTEA.m; sourceTree = "<group>"; };
+		C7A978102202FF7D00C4E5AA /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		C7A978112202FF7D00C4E5AA /* KFNetPasswordTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFNetPasswordTools.h; sourceTree = "<group>"; };
+		C7A978122202FF7D00C4E5AA /* XXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTEA.h; sourceTree = "<group>"; };
 		C7AA55DD210B09A7003D4580 /* BaseSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AA55E0210B09A7003D4580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7AA55E2210B09A7003D4580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +185,126 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7A977AC2202CCD600C4E5AA /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977AD2202CCD600C4E5AA /* Extension(分类) */,
+				C7A977BB2202CCD600C4E5AA /* CustomViews(自定义View) */,
+				C7A977C32202CCD600C4E5AA /* CustomTools(自定义工具文件) */,
+				C7A977CA2202CCD600C4E5AA /* BaseModel */,
+			);
+			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		C7A977AD2202CCD600C4E5AA /* Extension(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977AE2202CCD600C4E5AA /* ResponseRuter.swift */,
+				C7A977AF2202CCD600C4E5AA /* Date+Extension.swift */,
+				C7A977B02202CCD600C4E5AA /* UITextFieldExtension.swift */,
+				C7A977B12202CCD600C4E5AA /* IntExtension.swift */,
+				C7A977B22202CCD600C4E5AA /* ImageExtension.swift */,
+				C7A977B32202CCD600C4E5AA /* KFTextFiledExtension.swift */,
+				C7A977B42202CCD600C4E5AA /* ViewExtension.swift */,
+				C7A977B52202CCD600C4E5AA /* ColorExtension.swift */,
+				C7A977B62202CCD600C4E5AA /* ImageRightBtn.swift */,
+				C7A977B72202CCD600C4E5AA /* StringExtension.swift */,
+				C7A977B82202CCD600C4E5AA /* DateExtension.swift */,
+				C7A977B92202CCD600C4E5AA /* KFTimerBtn.swift */,
+				C7A977BA2202CCD600C4E5AA /* KFSMSCodeBtn.swift */,
+			);
+			path = "Extension(分类)";
+			sourceTree = "<group>";
+		};
+		C7A977BB2202CCD600C4E5AA /* CustomViews(自定义View) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977BE2202CCD600C4E5AA /* AlertViewCoustom.swift */,
+				C7A977BF2202CCD600C4E5AA /* SFAlertView(弹窗) */,
+			);
+			path = "CustomViews(自定义View)";
+			sourceTree = "<group>";
+		};
+		C7A977BF2202CCD600C4E5AA /* SFAlertView(弹窗) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977C12202CCD600C4E5AA /* KFAlertView.swift */,
+				C7A977C22202CCD600C4E5AA /* KFToastLabel.swift */,
+			);
+			path = "SFAlertView(弹窗)";
+			sourceTree = "<group>";
+		};
+		C7A977C32202CCD600C4E5AA /* CustomTools(自定义工具文件) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977C42202CCD600C4E5AA /* AlertAction.swift */,
+				C7A977C52202CCD600C4E5AA /* CustomProtocol.swift */,
+				C7A977C62202CCD600C4E5AA /* StringExtensionZhengZe.swift */,
+				C7A977C72202CCD600C4E5AA /* KFPayResultTool.swift */,
+				C7A977C82202CCD600C4E5AA /* KFKeyChain.swift */,
+				C7A977C92202CCD600C4E5AA /* KFCreatCodeTool.swift */,
+			);
+			path = "CustomTools(自定义工具文件)";
+			sourceTree = "<group>";
+		};
+		C7A977CA2202CCD600C4E5AA /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977CB2202CCD600C4E5AA /* BaseModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		C7A977EA2202D30900C4E5AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */,
+				C7A977F72202E00A00C4E5AA /* SFAddaption.swift */,
+				C7A977EE2202D33800C4E5AA /* CustomDefine.swift */,
+				C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */,
+				C7A977EB2202D33800C4E5AA /* CustomFunc.swift */,
+				C7A977EF2202D33800C4E5AA /* KFHUDAction.swift */,
+				C7A977EC2202D33800C4E5AA /* KFPayAction.swift */,
+				C7A977ED2202D33800C4E5AA /* UMengAcion.swift */,
+				C7A978062202F74000C4E5AA /* AppLunchSetting.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C7A977FB2202E21100C4E5AA /* FrameWork(框架文件) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A977FC2202E21100C4E5AA /* BaseViewController.swift */,
+				C7A977FD2202E21100C4E5AA /* BaseTableViewController.swift */,
+				C7A977FE2202E21100C4E5AA /* CustomNavigationViewController.swift */,
+				C7A978002202E21100C4E5AA /* BaseTabBarViewController.swift */,
+			);
+			path = "FrameWork(框架文件)";
+			sourceTree = "<group>";
+		};
+		C7A978082202FF7D00C4E5AA /* Network(网络请求) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A978092202FF7D00C4E5AA /* NetCostom.swift */,
+				C7A9780A2202FF7D00C4E5AA /* KFErrorModel.swift */,
+				C7A9780C2202FF7D00C4E5AA /* NetPassword(网络请求加密) */,
+			);
+			path = "Network(网络请求)";
+			sourceTree = "<group>";
+		};
+		C7A9780C2202FF7D00C4E5AA /* NetPassword(网络请求加密) */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9780D2202FF7D00C4E5AA /* NSDictionary+JSON.h */,
+				C7A9780E2202FF7D00C4E5AA /* KFNetPasswordTools.m */,
+				C7A9780F2202FF7D00C4E5AA /* XXTEA.m */,
+				C7A978102202FF7D00C4E5AA /* NSDictionary+JSON.m */,
+				C7A978112202FF7D00C4E5AA /* KFNetPasswordTools.h */,
+				C7A978122202FF7D00C4E5AA /* XXTEA.h */,
+			);
+			path = "NetPassword(网络请求加密)";
+			sourceTree = "<group>";
+		};
 		C7AA55D4210B09A7003D4580 = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +330,19 @@
 		C7AA55DF210B09A7003D4580 /* BaseSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				C7A978082202FF7D00C4E5AA /* Network(网络请求) */,
+				C7A977FB2202E21100C4E5AA /* FrameWork(框架文件) */,
+				C7A977EA2202D30900C4E5AA /* Common */,
+				C7A977AC2202CCD600C4E5AA /* Tools(工具类) */,
 				C7AA55E0210B09A7003D4580 /* AppDelegate.swift */,
 				C7AA55E2210B09A7003D4580 /* ViewController.swift */,
+				C7A977E72202CF4600C4E5AA /* test.h */,
+				C7A977E82202CF4600C4E5AA /* test.m */,
 				C7AA55E4210B09A7003D4580 /* Main.storyboard */,
 				C7AA55E7210B09A8003D4580 /* Assets.xcassets */,
 				C7AA55E9210B09A8003D4580 /* LaunchScreen.storyboard */,
 				C7AA55EC210B09A8003D4580 /* Info.plist */,
+				C7A977E62202CF4500C4E5AA /* BaseSwiftProject-Bridging-Header.h */,
 			);
 			path = BaseSwiftProject;
 			sourceTree = "<group>";
@@ -160,6 +376,8 @@
 				C7AA55D9210B09A7003D4580 /* Sources */,
 				C7AA55DA210B09A7003D4580 /* Frameworks */,
 				C7AA55DB210B09A7003D4580 /* Resources */,
+				6AC758F201F44BE2987EB0B6 /* [CP] Embed Pods Frameworks */,
+				EF4999C443A339CBE3517949 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +436,7 @@
 				TargetAttributes = {
 					C7AA55DC210B09A7003D4580 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					C7AA55F0210B09A8003D4580 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -277,6 +496,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6AC758F201F44BE2987EB0B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7E7E1A6EC9B87BBD273BC73A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +556,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EF4999C443A339CBE3517949 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -302,8 +587,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A977D22202CCD600C4E5AA /* ViewExtension.swift in Sources */,
+				C7A977CE2202CCD600C4E5AA /* UITextFieldExtension.swift in Sources */,
+				C7A977E52202CCD600C4E5AA /* BaseModel.swift in Sources */,
 				C7AA55E3210B09A7003D4580 /* ViewController.swift in Sources */,
+				C7A977CD2202CCD600C4E5AA /* Date+Extension.swift in Sources */,
+				C7A978012202E21100C4E5AA /* BaseViewController.swift in Sources */,
+				C7A977D02202CCD600C4E5AA /* ImageExtension.swift in Sources */,
+				C7A977D62202CCD600C4E5AA /* DateExtension.swift in Sources */,
+				C7A978152202FF7D00C4E5AA /* KFErrorModel.swift in Sources */,
+				C7A977DF2202CCD600C4E5AA /* AlertAction.swift in Sources */,
+				C7A977D12202CCD600C4E5AA /* KFTextFiledExtension.swift in Sources */,
+				C7A977F82202E00A00C4E5AA /* SFAddaption.swift in Sources */,
+				C7A978172202FF7D00C4E5AA /* KFNetPasswordTools.m in Sources */,
+				C7A977E42202CCD600C4E5AA /* KFCreatCodeTool.swift in Sources */,
+				C7A977CC2202CCD600C4E5AA /* ResponseRuter.swift in Sources */,
+				C7A978032202E21100C4E5AA /* CustomNavigationViewController.swift in Sources */,
+				C7A977E02202CCD600C4E5AA /* CustomProtocol.swift in Sources */,
+				C7A978072202F74000C4E5AA /* AppLunchSetting.swift in Sources */,
+				C7A977DE2202CCD600C4E5AA /* KFToastLabel.swift in Sources */,
+				C7A977F12202D33800C4E5AA /* KFPayAction.swift in Sources */,
+				C7A977E92202CF4600C4E5AA /* test.m in Sources */,
 				C7AA55E1210B09A7003D4580 /* AppDelegate.swift in Sources */,
+				C7A978022202E21100C4E5AA /* BaseTableViewController.swift in Sources */,
+				C7A977E12202CCD600C4E5AA /* StringExtensionZhengZe.swift in Sources */,
+				C7A977D52202CCD600C4E5AA /* StringExtension.swift in Sources */,
+				C7A977DD2202CCD600C4E5AA /* KFAlertView.swift in Sources */,
+				C7A978192202FF7D00C4E5AA /* NSDictionary+JSON.m in Sources */,
+				C7A977FA2202E1F600C4E5AA /* APPCustomFunc.swift in Sources */,
+				C7A977F22202D33900C4E5AA /* UMengAcion.swift in Sources */,
+				C7A978182202FF7D00C4E5AA /* XXTEA.m in Sources */,
+				C7A977E32202CCD600C4E5AA /* KFKeyChain.swift in Sources */,
+				C7A977F32202D33900C4E5AA /* CustomDefine.swift in Sources */,
+				C7A977D82202CCD600C4E5AA /* KFSMSCodeBtn.swift in Sources */,
+				C7A977F62202DF4900C4E5AA /* APPCustomDefine.swift in Sources */,
+				C7A977D42202CCD600C4E5AA /* ImageRightBtn.swift in Sources */,
+				C7A977DB2202CCD600C4E5AA /* AlertViewCoustom.swift in Sources */,
+				C7A977CF2202CCD600C4E5AA /* IntExtension.swift in Sources */,
+				C7A977F42202D33900C4E5AA /* KFHUDAction.swift in Sources */,
+				C7A977F02202D33800C4E5AA /* CustomFunc.swift in Sources */,
+				C7A978052202E21100C4E5AA /* BaseTabBarViewController.swift in Sources */,
+				C7A977D32202CCD600C4E5AA /* ColorExtension.swift in Sources */,
+				C7A977D72202CCD600C4E5AA /* KFTimerBtn.swift in Sources */,
+				C7A978142202FF7D00C4E5AA /* NetCostom.swift in Sources */,
+				C7A977E22202CCD600C4E5AA /* KFPayResultTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +742,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -468,6 +796,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -477,16 +806,21 @@
 			baseConfigurationReference = A0FD42A75BC350BF7948B4AD /* Pods-BaseSwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C78C6357E;
+				HEADERMAP_USES_VFS = YES;
 				INFOPLIST_FILE = BaseSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BaseSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "BaseSwiftProject/BaseSwiftProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -496,16 +830,20 @@
 			baseConfigurationReference = 8D2475A4959F0DA230F74FCD /* Pods-BaseSwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C78C6357E;
+				HEADERMAP_USES_VFS = YES;
 				INFOPLIST_FILE = BaseSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BaseSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "BaseSwiftProject/BaseSwiftProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
