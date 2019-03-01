@@ -38,7 +38,7 @@
 		C7A977F32202D33900C4E5AA /* CustomDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EE2202D33800C4E5AA /* CustomDefine.swift */; };
 		C7A977F42202D33900C4E5AA /* KFHUDAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977EF2202D33800C4E5AA /* KFHUDAction.swift */; };
 		C7A977F62202DF4900C4E5AA /* APPCustomDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */; };
-		C7A977F82202E00A00C4E5AA /* SFAddaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F72202E00A00C4E5AA /* SFAddaption.swift */; };
+		C7A977F82202E00A00C4E5AA /* AAddaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F72202E00A00C4E5AA /* AAddaption.swift */; };
 		C7A977FA2202E1F600C4E5AA /* APPCustomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */; };
 		C7A978012202E21100C4E5AA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977FC2202E21100C4E5AA /* BaseViewController.swift */; };
 		C7A978022202E21100C4E5AA /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A977FD2202E21100C4E5AA /* BaseTableViewController.swift */; };
@@ -111,7 +111,7 @@
 		C7A977EE2202D33800C4E5AA /* CustomDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDefine.swift; sourceTree = "<group>"; };
 		C7A977EF2202D33800C4E5AA /* KFHUDAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFHUDAction.swift; sourceTree = "<group>"; };
 		C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPCustomDefine.swift; sourceTree = "<group>"; };
-		C7A977F72202E00A00C4E5AA /* SFAddaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFAddaption.swift; sourceTree = "<group>"; };
+		C7A977F72202E00A00C4E5AA /* AAddaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAddaption.swift; sourceTree = "<group>"; };
 		C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPCustomFunc.swift; sourceTree = "<group>"; };
 		C7A977FC2202E21100C4E5AA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C7A977FD2202E21100C4E5AA /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
@@ -259,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				C7A977F92202E1F600C4E5AA /* APPCustomFunc.swift */,
-				C7A977F72202E00A00C4E5AA /* SFAddaption.swift */,
+				C7A977F72202E00A00C4E5AA /* AAddaption.swift */,
 				C7A977EE2202D33800C4E5AA /* CustomDefine.swift */,
 				C7A977F52202DF4900C4E5AA /* APPCustomDefine.swift */,
 				C7A977EB2202D33800C4E5AA /* CustomFunc.swift */,
@@ -505,33 +505,35 @@
 				"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/XHLaunchAd/XHLaunchAd.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XHLaunchAd.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -563,7 +565,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-BaseSwiftProject/Pods-BaseSwiftProject-resources.sh",
-				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDk/AlipaySDK.bundle",
 				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
@@ -598,7 +600,7 @@
 				C7A978152202FF7D00C4E5AA /* KFErrorModel.swift in Sources */,
 				C7A977DF2202CCD600C4E5AA /* AlertAction.swift in Sources */,
 				C7A977D12202CCD600C4E5AA /* KFTextFiledExtension.swift in Sources */,
-				C7A977F82202E00A00C4E5AA /* SFAddaption.swift in Sources */,
+				C7A977F82202E00A00C4E5AA /* AAddaption.swift in Sources */,
 				C7A978172202FF7D00C4E5AA /* KFNetPasswordTools.m in Sources */,
 				C7A977E42202CCD600C4E5AA /* KFCreatCodeTool.swift in Sources */,
 				C7A977CC2202CCD600C4E5AA /* ResponseRuter.swift in Sources */,

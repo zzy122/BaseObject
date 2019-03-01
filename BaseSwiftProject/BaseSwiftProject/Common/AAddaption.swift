@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 //UI设计图尺寸
-let kBasewidth : CGFloat = 750.00
-let kBaseHeight : CGFloat = 1334.00
+let kBasewidth : CGFloat = 375.00
+let kBaseHeight : CGFloat = 667.00
 
 //适配基础比例
 func AAdaptionWidth() -> CGFloat {

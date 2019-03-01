@@ -108,5 +108,32 @@ extension GeneralExt where Base == Date{
         let timeStamp = Int(timeInterval)
         return timeStamp
     }
+    
+    static func getDate(dateStr: String, format: String) -> Date? {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale.current
+        dateFormatter.timeZone = TimeZone.current
+        dateFormatter.dateFormat = format
+        
+        let date = dateFormatter.date(from: dateStr)
+        return date
+    }
+    
+    func getComponent(component: Calendar.Component) -> Int {
+        let calendar = Calendar.current
+        return calendar.component(component, from: base)
+    }
+    
+    func getString(format: String) -> String {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale.current
+        dateFormatter.timeZone = TimeZone.current
+        dateFormatter.dateFormat = format
+        
+        let dateString = dateFormatter.string(from: base)
+        return dateString
+    }
 }
 

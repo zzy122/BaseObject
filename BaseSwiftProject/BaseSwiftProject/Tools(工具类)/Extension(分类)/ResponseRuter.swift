@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol ResponderRouter {
+    func interceptRoute(name:String,objc:UIResponder?,info:Any?)
+}
 extension UIResponder: BaseExtPoint {
     
     public var zzy: ExtbaseImpl<UIResponder> {
